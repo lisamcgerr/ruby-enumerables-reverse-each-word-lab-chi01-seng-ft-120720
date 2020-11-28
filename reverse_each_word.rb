@@ -8,3 +8,9 @@ def reverse_each_word(sentence)
   backwards_sentence
 end
 end
+
+def reverse_each_word(sentence)
+  sentence.split.collect do |element|
+    elementt.reverse.join(" ")
+  end
+end
